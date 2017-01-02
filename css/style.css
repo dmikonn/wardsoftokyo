@@ -1,7 +1,9 @@
-body {
-    background-color: lightblue;
+img {
+    border: 2px solid black;
+    outline-color: black;
 }
 
 .well {
-    background-color: lightblue;
+    background-color: rgba(245, 245, 245, 0.4);
+    border: 0px solid black;
 }
