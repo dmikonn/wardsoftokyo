@@ -1,69 +1,53 @@
-<!DOCTYPE html>
-<html >
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Flags of the wards of Tokyo</title>
-  
-  
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
 
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  } );
+  </script>
 </head>
-  <a href="https://hymurl.github.io/wardsoftokyo/index25">TO 5x5 TABLE</a>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-2">
-        <div class="well">
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Chiyoda%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Flag_of_Chuo%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_Minato%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/7/76/Flag_of_Shinjuku%2C_Tokyo.svg">
-        </div>
-      </div>
-      <div class="col-xs-2">
-        <div class="well">
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_Bunkyo%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/8/81/Flag_of_Taito%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Sumida%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Flag_of_Koto%2C_Tokyo.svg">
-        </div>
-      </div>
-      <div class="col-xs-2">
-        <div class="well">
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Shinagawa%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Meguro%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Ota%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Flag_of_Setagaya%2C_Tokyo.svg">
-        </div>
-      </div>
-      <div class="col-xs-2">
-        <div class="well">
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Shibuya%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Nakano%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Flag_of_Suginami%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Toshima%2C_Tokyo.svg">
-        </div>
-      </div>
-      <div class="col-xs-2">
-        <div class="well">
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Kita%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Flag_of_Arakawa%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Flag_of_Itabashi%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_Nerima%2C_Tokyo.svg">
-        </div>
-      </div>
-      <div class="col-xs-2">
-        <div class="well">
-          <img class="img-responsive" src="https://d1v8u1ev1s9e4n.cloudfront.net/53fa6d12ddcb212b87b445a5"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Adachi%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Katsushika-ku%2C_Tokyo.svg"></br>
-          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_Edogawa%2C_Tokyo.svg">
-        </div>
-      </div>
-    </div>
-  </div>
-
+<body>
+ <a href="https://hymurl.github.io/wardsoftokyo/index25">TO 5x5 TABLE</a>
+<ul id="sortable">
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Chiyoda%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/4/40/Flag_of_Chuo%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_Minato%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/7/76/Flag_of_Shinjuku%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_Bunkyo%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/8/81/Flag_of_Taito%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Sumida%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Flag_of_Koto%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Shinagawa%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Meguro%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Ota%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Flag_of_Setagaya%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Shibuya%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Nakano%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Flag_of_Suginami%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Toshima%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Kita%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Flag_of_Arakawa%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Flag_of_Itabashi%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_Nerima%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://d1v8u1ev1s9e4n.cloudfront.net/53fa6d12ddcb212b87b445a5"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Adachi%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Katsushika-ku%2C_Tokyo.svg"></li>
+  <li class="ui-state-default flag"><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_Edogawa%2C_Tokyo.svg"></li>
+</ul>
+ 
+ 
 </body>
 </html>

@@ -1,9 +1,27 @@
-img {
-    border: 2px solid black;
-    outline-color: black;
-}
 
-.well {
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 0px solid black;
+#sortable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0;  
+	width: 1050px;
+}
+#sortable li { 
+    margin: 5px 5px 5px 5px;
+    float: left; 
+    width: 150px; 
+    height: 100px; 
+    font-size: 4em; 
+    text-align: center;
+    border: 2px solid black;
+    outline-color: black; 
+}
+li {
+  cursor: move;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
 }
