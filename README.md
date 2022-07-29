@@ -1,6 +1,5 @@
 # wardsoftokyo.github.io
-Just trying GitHub Pages
+A meditaitive zengame about rearanging flags of every administrative division unit of Tokyo.
+Learn more: https://en.wikipedia.org/wiki/Special_wards_of_Tokyo
 
-A Pen created at CodePen.io. You can find this one at http://codepen.io/dmiryji/pen/WoOMwg.
-
- 
+Powered by jQuery, I'll rewrite it into more apropriate engine someday.

@@ -5,6 +5,7 @@
 	padding: 0;  
 	width: 1050px;
 }
+
 #sortable li { 
     margin: 5px 5px 5px 5px;
     float: left; 
@@ -14,7 +15,9 @@
     text-align: center;
     border: 2px solid black;
     outline-color: black; 
+    border-radius: 5px
 }
+
 li {
   cursor: move;
   -moz-user-select: none;
@@ -25,3 +28,4 @@ li {
   -khtml-user-drag: element;
   -webkit-user-drag: element;
 }
+
